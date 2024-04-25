@@ -18,6 +18,6 @@ class HealthControllerWebMvcTest(@Autowired val mockMvc: MockMvc) {
     fun whenGetCalled_thenShouldBadReqeust() {
         mockMvc.perform(get("/health-check"))
             .andExpect(status().isOk)
-            .andExpect(content().string("Kotlin Spring Order Service Healthy"))
+            .andExpect(content().string("Kotlin Spring Order Service Healthy1"))
     }
 }
