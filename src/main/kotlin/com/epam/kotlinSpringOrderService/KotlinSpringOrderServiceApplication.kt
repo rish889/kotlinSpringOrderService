@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class KotlinSpringOrderServiceApplication
 
 fun main(args: Array<String>) {
-	runApplication<KotlinSpringOrderServiceApplication>(*args)
+    runApplication<KotlinSpringOrderServiceApplication>(*args)
 }
